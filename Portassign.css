@@ -1,0 +1,282 @@
+body 
+{
+background-color: #D2E9E9;
+}
+
+.header 
+{
+background-color: #313866; 
+color: #fff; 
+padding: 10px 0;
+text-align: center;
+position: sticky;
+top: 0;
+z-index: 100;
+}
+  
+.footer 
+{
+background-color: #313866;
+color: #fff;
+padding: 20px;
+text-align: center;
+}
+  
+.nav-link 
+{
+background-color: transparent;
+border: 1px solid #fff;
+color: #fff;
+padding: 5px 10px;
+text-decoration: none;
+margin: 0 10px;
+border-radius: 5px;
+}
+  
+.nav-link:hover 
+{
+background-color: #fff;
+color: #333;
+}
+
+#home
+{
+border: 2px solid black;
+padding: 350px;
+background: url(TPort6.jpeg);
+background-repeat: no-repeat;
+background-size:cover;
+}
+
+
+.greet
+{
+background-color: #333; 
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+width: 250px; 
+height: 350px; 
+border-radius: 50%; 
+position: absolute;
+top: 50%; 
+right: 150px;
+transform: translateY(-50%); 
+padding: 20px;
+text-align: center;
+}
+
+.greet 
+{
+margin-top: 0;
+font-family: 'Caveat', cursive; 
+font-size: 32px;
+color:#fff; 
+}
+  
+.greet 
+{
+font-size: 14px;
+line-height: 1.5;
+margin: 10px 0;
+}
+
+.about 
+{
+background-color: #94ADD7; 
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+width: 1465px; 
+height: 1500px; 
+margin-top: 25vh; 
+text-align: center;
+padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.about h1 
+{
+margin-top: 0;
+font-family: 'Caveat', cursive; 
+font-size: 32px;
+color: #333; 
+}
+  
+.about p 
+{
+font-size: 20px;
+line-height: 1.5;
+margin: 10px 0;
+}
+  
+.img 
+{
+display: flex;
+justify-content: space-between;
+border-radius: 50px;
+}
+  
+.img img 
+{
+width: 500px;
+height: 500px;
+object-fit: contain;
+
+}
+
+.quote 
+{
+text-align: center;
+font-style: italic;
+color: #666;
+margin-top: 300px;
+}
+
+.quote p 
+{
+font-size: 42px;
+}
+
+.education 
+{
+padding: 100px 0;
+text-align: center;
+font-size: 24px;
+}
+
+.education h1 
+{
+font-size: 38px;
+margin-bottom: 20px;
+}
+
+.link 
+{
+color: #0D1282;
+text-decoration: none;
+transition: color 0.3s;
+}
+
+.link:hover 
+{
+color: #00aaff; 
+}
+
+.hobbies 
+{
+padding: 100px 0;
+text-align: center;
+background-color: #94ADD7;
+color: #333; 
+}
+
+.hobbies h1 
+{
+font-size: 38px;
+margin-bottom: 20px;
+}
+
+.hobbies  p 
+{
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+.quote 
+{
+font-style: italic;
+color: #666; 
+margin-bottom: 30px;
+}
+.quote p
+{
+font-size: 36px;
+}
+
+.drawings 
+{
+display: flex;
+justify-content: center;
+gap: 50px;
+flex-wrap: wrap; 
+}
+
+.drawing 
+{
+max-width: 200px;
+border: 2px solid #666;
+border-radius: 10px;
+overflow: hidden;
+}
+
+.drawing img 
+{
+width: 100%;
+height: 100%;
+}
+
+.contact 
+{
+padding: 100px 0;
+text-align: center;
+}
+
+.contact h1 
+{
+font-size: 36px;
+margin-bottom: 20px;
+}
+
+.contact-info 
+{
+font-size: 18px;
+margin-bottom: 30px;
+}
+
+.contact-form 
+{
+text-align: left;
+max-width: 400px;
+margin: 0 auto;
+}
+
+.input-group 
+{
+margin-bottom: 20px;
+}
+
+label 
+{
+display: block;
+font-size: 18px;
+margin-bottom: 5px;
+}
+
+input, textarea 
+{
+width: 100%;
+padding: 10px;
+font-size: 16px;
+border: 1px solid #666;
+border-radius: 5px;
+}
+
+textarea 
+{
+height: 120px;
+}
+
+button 
+{
+padding: 10px 20px;
+background-color: #666; 
+color: #fff; 
+font-size: 16px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+button:hover 
+{
+background-color: #333;
+}
