@@ -197,13 +197,13 @@ font-size: 36px;
 {
 display: flex;
 justify-content: center;
-gap: 50px;
+gap: 100px;
 flex-wrap: wrap; 
 }
 
 .drawing 
 {
-max-width: 200px;
+max-width: 300px;
 border: 2px solid #666;
 border-radius: 10px;
 overflow: hidden;
