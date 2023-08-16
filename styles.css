@@ -2,6 +2,7 @@ body
 {
   width: 100%;
 background-color: #D2E9E9;
+@media (max-width: 768px) {}
 }
 
 .header 
