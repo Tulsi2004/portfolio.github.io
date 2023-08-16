@@ -2,9 +2,6 @@ body
 {
   width: 100%;
 background-color: #D2E9E9;
-  display: flex;
-flex-direction: column;
-align-items: center;
 }
 
 .header 
