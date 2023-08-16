@@ -43,7 +43,7 @@ color: #333;
 {
 border: 2px solid black;
 padding: 350px;
-background: url(TPort6.jpeg);
+background: url("TPort6.jpeg");
 background-repeat: no-repeat;
 background-size:cover;
 }
